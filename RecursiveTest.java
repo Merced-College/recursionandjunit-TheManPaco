@@ -17,20 +17,20 @@ public class RecursiveTest {
 
     @Test
     public void testCountHi(){
-        assertEquals(1, RecursionProblems.countHi("xxhixx"));
-        assertEquals(2, RecursionProblems.countHi("xhixhix"));
-        assertEquals(1, RecursionProblems.countHi("hi"));
-        assertEquals(0, RecursionProblems.countHi("hello"));
-        assertEquals(2, RecursionProblems.countHi("hihi"));
+        assertEquals(1, Main.countHi("xxhixx"));
+        assertEquals(2, Main.countHi("xhixhix"));
+        assertEquals(1, Main.countHi("hi"));
+        assertEquals(0, Main.countHi("hello"));
+        assertEquals(2, Main.countHi("hihi"));
     }
     
     @Test
     public void testCountHi2() {
-        assertEquals(1, RecursionProblems.countHi2("ahixhi"));
-        assertEquals(2, RecursionProblems.countHi2("ahibhi"));
-        assertEquals(0, RecursionProblems.countHi2("xhixhi"));
-        assertEquals(1, RecursionProblems.countHi2("xhixhibhi"));
-        assertEquals(1, RecursionProblems.countHi2("hi"));
+        assertEquals(1, Main.countHi2("ahixhi"));
+        assertEquals(2, Main.countHi2("ahibhi"));
+        assertEquals(0, Main.countHi2("xhixhi"));
+        assertEquals(1, Main.countHi2("xhixhibhi"));
+        assertEquals(1, Main.countHi2("hi"));
     }
 
     @Test

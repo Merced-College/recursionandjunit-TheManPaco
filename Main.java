@@ -1,3 +1,6 @@
+//Francisco Vazquez
+//7.17.25
+//Recursive and JUnit assignment
 public class Main {
 
     public static int count8(int n) {
@@ -42,7 +45,7 @@ public class Main {
     public static String stringClean(String str) {
         if (str.length() < 2) return str;
         if (str.charAt(0) == str.charAt(1)) {
-            return stringClean(str.subtring(1));
+            return stringClean(str.substring(1));
         }
         return str.charAt(0) + stringClean(str.substring(1));
     }
